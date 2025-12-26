@@ -100,7 +100,7 @@ const About: React.FC = () => {
             {/* High-Conversion Hero Banner */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/assets/img-6.jpg" 
+                src={`${process.env.PUBLIC_URL}/assets/img-6.jpg`}
                 alt="Modern flatbed tow truck carrying a car - Neptune Towing professional service"
                 className="w-full h-80 md:h-96 lg:h-[28rem] object-cover object-center"
                 loading="lazy"

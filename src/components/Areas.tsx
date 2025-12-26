@@ -45,7 +45,7 @@ const Areas: React.FC = () => {
               {/* Image Side */}
               <div className="relative h-80 lg:h-96">
                 <img 
-                  src="/assets/img-9.png" 
+                  src={`${process.env.PUBLIC_URL}/assets/img-9.png`}
                   alt="Professional towing service covering The Hamptons area"
                   className="w-full h-full object-contain bg-gray-100"
                   loading="lazy"
