@@ -113,7 +113,7 @@ const About: React.FC = () => {
                     {/* Main Headline */}
                     <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-shadow-strong">
                       24/7 EMERGENCY
-                      <span className="block text-yellow-300">TOWING SERVICE</span>
+                      <span className="block text-yellow-300">TOWING</span>
                     </h3>
                     
                     {/* Subheadline */}
@@ -123,21 +123,21 @@ const About: React.FC = () => {
                           <svg className="w-5 h-5 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                           </svg>
-                          Serving Your Area
+                          Serving All States
                         </span>
                         <span className="hidden md:inline text-yellow-300">•</span>
                         <span className="flex items-center">
                           <svg className="w-5 h-5 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                           </svg>
-                          Fast Arrival
+                          15 Min Response
                         </span>
                         <span className="hidden md:inline text-yellow-300">•</span>
                         <span className="flex items-center">
                           <svg className="w-5 h-5 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                           </svg>
-                          Trusted Professionals
+                          Expert Recovery Team
                         </span>
                       </p>
                     </div>
@@ -145,13 +145,13 @@ const About: React.FC = () => {
                     {/* CTA Button */}
                     <div className="flex justify-center">
                       <a
-                        href="tel:631-856-4090"
+                        href="tel:1-800-869-4357"
                         className="inline-flex items-center bg-emergency-red hover:bg-emergency-orange text-white font-bold py-5 px-10 rounded-xl text-xl lg:text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-3xl"
                       >
                         <svg className="w-6 h-6 lg:w-7 lg:h-7 mr-4" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                         </svg>
-                        GET HELP NOW
+                        CALL NOW: 1-800-TOW-HELP
                       </a>
                     </div>
                     
@@ -162,19 +162,19 @@ const About: React.FC = () => {
                           <svg className="w-4 h-4 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                           </svg>
-                          Licensed & Insured
+                          Fully Licensed & Insured
                         </span>
                         <span className="flex items-center">
                           <svg className="w-4 h-4 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
                           </svg>
-                          Emergency Response
+                          24/7 Emergency Response
                         </span>
                         <span className="flex items-center">
                           <svg className="w-4 h-4 mr-2 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                           </svg>
-                          Customer Satisfaction
+                          99% Customer Satisfaction
                         </span>
                       </div>
                     </div>
