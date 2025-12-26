@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+# Neptune Towing - Professional Towing Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React website for Neptune Towing, a 24/7 car recovery and roadside assistance service operating in Hampton Bays and The Hamptons area.
 
-## Available Scripts
+## 🌐 Live Website
+**https://alizaidi5110.github.io/neptune-towing**
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Modern Design**: Clean, professional design with emergency service urgency
+- **Mobile-First Responsive**: Optimized for mobile, tablet, and desktop
+- **Smooth Animations**: Framer Motion animations and transitions
+- **24/7 Emergency Focus**: Prominent call-to-action buttons throughout
+- **Service Areas**: Hampton Bays, Southampton, East Hampton, Montauk, Westhampton, Bridgehampton
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+- **Lucide React** for icons
+- **React Hook Form** for contact form
+- **GitHub Pages** for hosting
 
-### `npm test`
+## Quick Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Install dependencies
+npm install
 
-### `npm run build`
+# Start development server
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Build for production
+npm run build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Key Components
 
-### `npm run eject`
+1. **Hero Section**: Eye-catching landing with auto-rotating image carousel and emergency CTAs
+2. **Image Carousel**: Fully responsive auto-rotating carousel with touch/swipe support
+3. **Areas We Cover**: Grid of service locations with professional imagery
+4. **Services**: 16 recovery services with detailed cards
+5. **About Us**: Company information with professional hero-style image
+6. **Videos**: Service demonstration section with image previews
+7. **Contact**: Contact form with validation and emergency contact info
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Carousel Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Auto-rotation**: 10-second intervals with smooth fade transitions
+- **Touch/Swipe Support**: Mobile-friendly swipe gestures
+- **Keyboard Navigation**: Arrow key support for accessibility
+- **Pause on Hover**: Auto-pause when hovering (desktop)
+- **Navigation Dots**: Clickable indicators at bottom
+- **Arrow Controls**: Left/right navigation (hidden on mobile)
+- **Lazy Loading**: Performance-optimized image loading
+- **Accessibility**: Full ARIA support and screen reader compatibility
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+src/
+├── components/
+│   ├── Navbar.tsx          # Fixed navigation with call button
+│   ├── Hero.tsx            # Hero section with image carousel
+│   ├── ImageCarousel.tsx   # Auto-rotating image carousel component
+│   ├── Areas.tsx           # Service coverage areas
+│   ├── Services.tsx        # 16 recovery services
+│   ├── ServiceCard.tsx     # Individual service card component
+│   ├── LocationCard.tsx    # Location coverage card
+│   ├── About.tsx           # About section with hero-style image
+│   ├── Videos.tsx          # Video/media section with previews
+│   ├── Contact.tsx         # Contact form and info
+│   ├── Footer.tsx          # Footer with links and info
+│   └── FloatingCallButton.tsx # Mobile floating call button
+├── App.tsx                 # Main app component
+└── index.css              # Tailwind CSS imports and custom styles
+```
 
-## Learn More
+## Contact Information
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Phone**: 631-856-4090 (24/7 Emergency)
+- **Email**: angelberrocal671@yahoo.com
+- **Address**: 16 Neptune Ave, Hampton Bays, NY 11946
+- **Service Areas**: Hampton Bays, Southampton, East Hampton, Montauk, Westhampton, Bridgehampton
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Build for Production
+
+```bash
+npm run build
+```
+
+This builds the app for production to the `build` folder.
+
+---
+
+*Professional website for Neptune Towing - Serving The Hamptons with 24/7 emergency towing and roadside assistance.*
