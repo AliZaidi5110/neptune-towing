@@ -58,7 +58,26 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 1px 1px 2px rgba(0, 0, 0, 0.9);
   }
 
-  .shadow-3xl {
-    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25), 0 25px 25px -5px rgba(0, 0, 0, 0.1);
+  /* Navbar mobile fixes */
+  .navbar-mobile-fix {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .navbar-mobile-fix .logo {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .navbar-mobile-fix .mobile-buttons {
+    flex-shrink: 0;
+  }
+
+  /* Ensure proper mobile spacing */
+  @media (max-width: 640px) {
+    .navbar-container {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
   }
 }
