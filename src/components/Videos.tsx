@@ -7,17 +7,17 @@ const Videos: React.FC = () => {
     {
       title: "Emergency Roadside Recovery",
       description: "Watch how we handle emergency breakdowns with speed and professionalism",
-      image: `${process.env.PUBLIC_URL}/assets/img-7.jpg`
+      image: "./assets/img-7.jpg"
     },
     {
       title: "Accident Recovery Service", 
       description: "See our careful approach to accident recovery and vehicle transportation",
-      image: `${process.env.PUBLIC_URL}/assets/img-8.jpg`
+      image: "./assets/img-8.jpg"
     },
     {
       title: "Customer Testimonials",
       description: "Hear from satisfied customers about their experience with our service",
-      image: `${process.env.PUBLIC_URL}/assets/img-5.jpg`
+      image: "./assets/img-5.jpg"
     }
   ];
 

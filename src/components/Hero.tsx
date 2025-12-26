@@ -15,27 +15,27 @@ const Hero: React.FC = () => {
 
   const carouselImages = [
     {
-      src: `${process.env.PUBLIC_URL}/assets/img-1.jpg`,
+      src: './assets/img-1.jpg',
       alt: 'Professional tow truck providing roadside assistance',
       objectPosition: 'center center'
     },
     {
-      src: `${process.env.PUBLIC_URL}/assets/img-2.jpg`,
+      src: './assets/img-2.jpg',
       alt: 'Emergency vehicle recovery service in action',
       objectPosition: 'center center'
     },
     {
-      src: `${process.env.PUBLIC_URL}/assets/img-3.jpg`,
+      src: './assets/img-3.jpg',
       alt: 'Towing service helping stranded motorist',
       objectPosition: 'center center'
     },
     {
-      src: `${process.env.PUBLIC_URL}/assets/img-4.jpg`,
+      src: './assets/img-4.jpg',
       alt: '24/7 breakdown recovery service',
       objectPosition: 'center center'
     },
     {
-      src: `${process.env.PUBLIC_URL}/assets/img-5.jpg`,
+      src: './assets/img-5.jpg',
       alt: 'Professional towing team and equipment',
       objectPosition: 'center 20%'
     }
