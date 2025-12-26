@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              <h1 className="text-2xl font-bold text-trust-dark">
+              <h1 className="text-xl sm:text-2xl font-bold text-trust-dark">
                 Neptune <span className="text-emergency-red">Towing</span>
               </h1>
             </a>
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
 
-          {/* Call Now Button */}
+          {/* Desktop Call Now Button */}
           <div className="hidden md:block">
             <a
               href="tel:631-856-4090"
@@ -85,17 +85,21 @@ const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-4">
+          {/* Mobile menu section */}
+          <div className="md:hidden flex items-center space-x-2">
+            {/* Mobile Call Button */}
             <a
               href="tel:631-856-4090"
-              className="btn-primary p-2"
+              className="bg-emergency-red hover:bg-emergency-orange text-white p-2 rounded-lg transition-colors duration-300"
             >
               <Phone className="w-5 h-5" />
             </a>
+            
+            {/* Mobile Hamburger Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-emergency-red"
+              className="text-gray-700 hover:text-emergency-red p-2 rounded-lg transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-emergency-red"
+              aria-label="Toggle menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -106,7 +110,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
+          <div className="px-4 pt-2 pb-3 space-y-1 bg-white shadow-lg border-t border-gray-200">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -115,18 +119,23 @@ const Navbar: React.FC = () => {
                   handleNavClick(e, link.href);
                   setIsOpen(false);
                 }}
-                className="text-gray-700 hover:text-emergency-red block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-emergency-red hover:bg-gray-50 block px-3 py-3 text-base font-medium rounded-lg transition-colors duration-300"
               >
                 {link.name}
               </a>
             ))}
-            <a
-              href="tel:631-856-4090"
-              className="btn-primary w-full text-center mt-4 flex items-center justify-center space-x-2"
-            >
-              <Phone className="w-4 h-4" />
-              <span>CALL NOW: 631-856-4090</span>
-            </a>
+            
+            {/* Mobile Full Call Button */}
+            <div className="pt-4 border-t border-gray-200">
+              <a
+                href="tel:631-856-4090"
+                className="btn-primary w-full text-center flex items-center justify-center space-x-2 py-3"
+                onClick={() => setIsOpen(false)}
+              >
+                <Phone className="w-5 h-5" />
+                <span>CALL NOW: 631-856-4090</span>
+              </a>
+            </div>
           </div>
         </div>
       )}
