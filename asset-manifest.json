@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/neptune-towing/static/css/main.b081163b.css",
-    "main.js": "/neptune-towing/static/js/main.d4cfed2d.js",
+    "main.js": "/neptune-towing/static/js/main.c86cc5c4.js",
     "static/js/453.19deb61c.chunk.js": "/neptune-towing/static/js/453.19deb61c.chunk.js",
     "index.html": "/neptune-towing/index.html",
     "main.b081163b.css.map": "/neptune-towing/static/css/main.b081163b.css.map",
-    "main.d4cfed2d.js.map": "/neptune-towing/static/js/main.d4cfed2d.js.map",
+    "main.c86cc5c4.js.map": "/neptune-towing/static/js/main.c86cc5c4.js.map",
     "453.19deb61c.chunk.js.map": "/neptune-towing/static/js/453.19deb61c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b081163b.css",
-    "static/js/main.d4cfed2d.js"
+    "static/js/main.c86cc5c4.js"
   ]
 }
